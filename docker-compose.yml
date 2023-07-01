@@ -11,5 +11,7 @@ services:
     restart: unless-stopped
     networks:
       - default
-    command:
-      - --port=2001
+    ports:
+      - 2001:80
+    #command:
+    #  - --port=2001
