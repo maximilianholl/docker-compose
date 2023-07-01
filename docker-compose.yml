@@ -11,6 +11,5 @@ services:
     restart: unless-stopped
     networks:
       - default
-    labels:
     command:
       - --port=2001
